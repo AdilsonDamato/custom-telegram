@@ -1,0 +1,12 @@
+{
+  "name": "telegram-custom",
+  "displayName": "telegram-custom",
+  "expo": {
+    "name": "telegram-custom",
+    "slug": "telegram-custom",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
