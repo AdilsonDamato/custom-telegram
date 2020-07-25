@@ -1,16 +1,24 @@
 {
   "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "react-native",
     "lib": ["dom", "esnext"],
     "moduleResolution": "node",
     "noEmit": true,
+    "isolatedModules": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "strict": true
+    "strict": true,
+    "esModuleInterop": true
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
   ],
   "files": [
     "src/styles/styled.d.ts"

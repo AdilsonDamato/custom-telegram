@@ -8,7 +8,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "@expo-google-fonts/roboto": "^0.1.0",
     "expo": "~38.0.1",
+    "expo-font": "^8.2.1",
     "expo-splash-screen": "~0.4.0",
     "expo-status-bar": "^1.0.0",
     "expo-updates": "~0.2.10",
@@ -29,9 +31,6 @@
     "@types/react-native": "^0.63.1",
     "@types/styled-components": "^5.1.1",
     "babel-jest": "~25.2.6",
-    "jest": "~25.2.6",
-    "react-test-renderer": "~16.11.0",
-    "typescript": "^3.9.7",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
@@ -42,8 +41,11 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
     "install": "^0.13.0",
+    "jest": "~25.2.6",
     "metro-react-native-babel-preset": "^0.58.0",
-    "prettier": "^2.0.4"
+    "prettier": "^2.0.4",
+    "react-test-renderer": "~16.11.0",
+    "typescript": "^3.9.7"
   },
   "jest": {
     "preset": "react-native"

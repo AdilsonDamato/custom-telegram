@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { useColorScheme } from 'react-native';
+import { useColorScheme, Appearance } from 'react-native';
 
 import themes from './src/styles/themes';
 
